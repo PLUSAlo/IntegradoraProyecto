@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="@dimen/m_top">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+    <TabHost android:id="@android:id/tabhost"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TabWidget android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@android:id/tabs" />
+
+            <FrameLayout android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@android:id/tabcontent" >
+
+
+                <LinearLayout android:id="@+id/hotel"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <TextView
+                        android:paddingTop="@dimen/top2"
+                        android:text="¿Donde estamos?"
+                        android:textStyle="bold"
+                        android:paddingLeft="@dimen/top2"
+                        android:textColor="@color/black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        />
+
+                    <TextView
+                        android:paddingTop="@dimen/top2"
+                        android:text="@string/address"
+                        android:paddingLeft="@dimen/left2"
+                        android:textColor="@color/black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:paddingTop="@dimen/top2"
+                        android:text="@string/quien_somos"
+                        android:textStyle="bold"
+                        android:paddingLeft="@dimen/left1"
+                        android:textColor="@color/black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:paddingTop="@dimen/top2"
+                        android:text="@string/description_hotel"
+                        android:paddingLeft="@dimen/left2"
+                        android:textColor="@color/black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+
+                    <TextView
+                        android:paddingTop="@dimen/top2"
+                        android:text=""
+                        android:paddingLeft="@dimen/left1"
+                        android:textColor="@color/black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:paddingTop="@dimen/top2"
+                        android:text="@string/numero"
+                        android:paddingLeft="@dimen/left2"
+                        android:textColor="@color/black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="90pt"
+                        android:src="@drawable/dolores_hidalgo"/>
+
+
+                </LinearLayout>
+
+
+                <LinearLayout android:id="@+id/habitacion"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+
+                    <com.google.android.youtube.player.YouTubePlayerView
+                        android:layout_marginTop="20pt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/youtube_view"
+                        />
+
+                    <TextView
+                        android:paddingTop="@dimen/top2"
+                        android:text="@string/title_room"
+                        android:textStyle="bold"
+                        android:paddingLeft="@dimen/top2"
+                        android:textColor="@color/black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        />
+
+                    <TextView
+                        android:paddingTop="@dimen/top2"
+                        android:text="@string/room1"
+                        android:paddingLeft="@dimen/left2"
+                        android:textColor="@color/black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:paddingTop="@dimen/top2"
+                        android:text="@string/room2"
+                        android:paddingLeft="@dimen/left2"
+                        android:textColor="@color/black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                    android:paddingTop="@dimen/top2"
+                    android:text="@string/room3"
+                    android:paddingLeft="@dimen/left2"
+                    android:textColor="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:paddingTop="@dimen/top2"
+                        android:text="@string/description_hotel_spa"
+                        android:paddingLeft="@dimen/left2"
+                        android:textColor="@color/black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+                <LinearLayout android:id="@+id/spa"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+
+                    <TextView
+                        android:paddingTop="@dimen/top2"
+                        android:text="@string/massage1"
+                        android:textStyle="italic"
+                        android:paddingLeft="@dimen/left2"
+                        android:textColor="@color/black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:paddingTop="@dimen/top2"
+                        android:text="@string/description_aromaterapia"
+                        android:textStyle="normal"
+                        android:paddingLeft="@dimen/left2"
+                        android:textColor="@color/black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="125pt"
+                        android:layout_marginTop="@dimen/mTop_image"
+                        android:src="@drawable/aromaterapia"/>
+
+                    <TextView
+                        android:paddingTop="@dimen/top2"
+                        android:text="@string/massage2"
+                        android:textStyle="italic"
+                        android:paddingLeft="@dimen/left2"
+                        android:textColor="@color/black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:paddingTop="@dimen/top2"
+                        android:text="@string/description_personalizado"
+                        android:textStyle="normal"
+                        android:paddingLeft="@dimen/left2"
+                        android:textColor="@color/black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="125pt"
+                        android:layout_marginTop="@dimen/mTop_image"
+                        android:src="@drawable/mascarilla"/>
+
+                    <TextView
+                        android:paddingTop="@dimen/top2"
+                        android:text="@string/massage3"
+                        android:textStyle="italic"
+                        android:paddingLeft="@dimen/left2"
+                        android:textColor="@color/black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:paddingTop="@dimen/top2"
+                        android:text="@string/description_chocolate"
+                        android:textStyle="normal"
+                        android:paddingLeft="@dimen/left2"
+                        android:textColor="@color/black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="115pt"
+                        android:layout_marginTop="@dimen/mTop_image"
+                        android:src="@drawable/chocolate"/>
+
+
+                    <TextView
+                        android:paddingTop="@dimen/top2"
+                        android:text="@string/massage4"
+                        android:textStyle="italic"
+                        android:paddingLeft="@dimen/left2"
+                        android:textColor="@color/black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:paddingTop="@dimen/top2"
+                        android:text="@string/description_foots"
+                        android:textStyle="normal"
+                        android:paddingLeft="@dimen/left2"
+                        android:textColor="@color/black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="115pt"
+                        android:layout_marginTop="@dimen/mTop_image"
+                        android:src="@drawable/pies_cansados"/>
+
+
+                    <TextView
+                        android:paddingTop="@dimen/top2"
+                        android:text="@string/massage5"
+                        android:textStyle="italic"
+                        android:paddingLeft="@dimen/left2"
+                        android:textColor="@color/black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:paddingTop="@dimen/top2"
+                        android:text="@string/description_podal"
+                        android:textStyle="normal"
+                        android:paddingLeft="@dimen/left2"
+                        android:textColor="@color/black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="115pt"
+                        android:layout_marginTop="@dimen/mTop_image"
+                        android:src="@drawable/massage"/>
+
+                </LinearLayout>
+
+
+                </FrameLayout>
+            </LinearLayout>
+        </TabHost>
+    </ScrollView>
+</LinearLayout>

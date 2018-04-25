@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.alo_m.mapgeo">
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_maps">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".UserProfile"></activity>
+        <activity android:name=".SignupActivity"></activity>
+        <activity android:name=".ResetPasswordActivity"></activity>
+        <activity android:name=".MainActivity2"></activity>
+        <activity android:name=".MapsActivity"></activity>
+        <activity android:name=".CallActivity"></activity>
+        <activity android:name=".WeatherActivity"></activity>
+        <activity android:name=".InfoActivity"></activity>
+        <activity android:name=".HelpActivity"></activity>
+        <activity android:name=".CommentActivity"></activity>
+        <activity android:name=".ListCommentActivity"></activity>
+        <activity android:name=".GaleriaActivity"></activity>
+        <activity android:name=".ActivityPackage"/>
+        <activity android:name=".ViewPackageActivity"/>
+        <activity android:name=".OfftersUser"></activity>
+        <activity android:name=".ActivityOffers"></activity>
+        <activity android:name=".ViewOffersActivity"></activity>
+        <activity android:name=".ListPackageActivity"></activity>
+        <activity android:name=".ViewRoomsActivity"></activity>
+        <activity android:name=".RoomsActivity"></activity>
+        <activity android:name=".RoomsUser"></activity>
+        <activity android:name=".ServicesActivity"></activity>
+        <activity android:name=".ViewServicesActivity"></activity>
+        <activity android:name=".ServicesUser"></activity>
+        <activity android:name=".OpenCamare"></activity>
+        <activity android:name=".ClientsActivity"></activity>
+        <activity android:name=".Room360"></activity>
+        <activity android:name=".Reservation_Activity"></activity>
+        <activity android:name=".MenuReservationsAdm"></activity>
+        <activity android:name=".MenuReservationsUser"></activity>
+        <activity android:name="ActivityReservationServiceAdm"></activity>
+        <activity android:name="ActivityReservationServiceUser"></activity>
+        <activity android:name="ActivityReservationRoomAdm"></activity>
+        <activity android:name="ActivityReservationRoomUser"></activity>
+        <activity android:name=".ActivityReservationPackageAdm"></activity>
+        <activity android:name=".ActivityReservationPackageUser"></activity>
+        <activity android:name=".CotizacionActivity">
+
+
+        </activity>
+        <activity android:name=".MainActivity">
+
+        </activity>
+
+        <activity
+            android:name="com.example.alo_m.mapgeo.PlacesListActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+
+
+        <activity
+            android:name="com.example.alo_m.mapgeo.PlacesDetailActivity"
+            android:label="@string/title_activity_detail"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+
+        <activity
+            android:name="com.example.alo_m.mapgeo.ListActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+
+
+        <activity
+            android:name="com.example.alo_m.mapgeo.DetailActivity"
+            android:label="@string/title_activity_detail"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

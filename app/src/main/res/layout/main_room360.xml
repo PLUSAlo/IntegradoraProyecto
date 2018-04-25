@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#F7DCCB">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dip"
+        android:id="@+id/main_layout"
+        android:orientation="vertical" >
+
+
+
+        <TextView
+          style="@style/ContentText"
+          android:id="@+id/subtitle"
+          android:textColor="@color/textLight"
+          android:text="@string/title_hotel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="15pt"
+            android:fontFamily="monospace"
+            android:layout_margin="5dp"/>
+
+        <TextView
+          style="@style/ContentText"
+          android:id="@+id/paragraph1"
+          android:textColor="@color/textDark"
+          android:textSize="@dimen/paragragh_text_size"
+          android:text="@string/description_room"
+            android:layout_margin="10pt"
+            android:fontFamily="serif-monospace"/>
+
+        <com.google.vr.sdk.widgets.pano.VrPanoramaView
+            android:id="@+id/pano_view"
+            android:layout_margin="5dip"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_img_360"/>
+
+        <TextView
+          style="@style/ContentText"
+          android:id="@+id/pano_view_caption"
+          android:textColor="@color/textLight"
+          android:textSize="12dip"
+          android:text="@string/description_img" />
+
+
+    </LinearLayout>
+</ScrollView>

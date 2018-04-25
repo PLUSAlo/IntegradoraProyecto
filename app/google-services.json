@@ -1,0 +1,107 @@
+{
+  "project_info": {
+    "project_number": "820708994824",
+    "firebase_url": "https://posadabonitahotel-68c61.firebaseio.com",
+    "project_id": "posadabonitahotel-68c61",
+    "storage_bucket": "posadabonitahotel-68c61.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:820708994824:android:f33cd35529f83c4e",
+        "android_client_info": {
+          "package_name": "com.example.alo_m.mapgeo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "820708994824-nomrhbfc2dhdkb8d0ss2g1qmunqcube5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.alo_m.mapgeo",
+            "certificate_hash": "8740cf21198aa3c617a9b586645030e7a3cf6040"
+          }
+        },
+        {
+          "client_id": "820708994824-ptk4j10gv0d7gusdbeftspseaheg0iue.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFnY5NTrXm_KD_bbNBT5ZiZZFk2eO_0wY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "820708994824-ptk4j10gv0d7gusdbeftspseaheg0iue.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:820708994824:android:205d398fde12a513",
+        "android_client_info": {
+          "package_name": "edmt.dev.androidgridlayout"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "820708994824-lnlks4t24a0gas4lnarl7b08d2d81cht.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edmt.dev.androidgridlayout",
+            "certificate_hash": "8740cf21198aa3c617a9b586645030e7a3cf6040"
+          }
+        },
+        {
+          "client_id": "820708994824-5116v23hnlp6nc9r741hfq6v9fpasmcd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edmt.dev.androidgridlayout",
+            "certificate_hash": "18ffd1dc14153465122cb31c852dc724d4e53ced"
+          }
+        },
+        {
+          "client_id": "820708994824-ptk4j10gv0d7gusdbeftspseaheg0iue.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFnY5NTrXm_KD_bbNBT5ZiZZFk2eO_0wY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "820708994824-ptk4j10gv0d7gusdbeftspseaheg0iue.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

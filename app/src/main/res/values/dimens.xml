@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="layout_height">0dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="title_text_size">24dip</dimen>
+    <dimen name="caption_text_size">12dip</dimen>
+    <dimen name="paragragh_text_size">15dip</dimen>
+    <dimen name="dimen_img_360">250dip</dimen>
+    <dimen name="size_title_1">15pt</dimen>
+    <dimen name="size_margin">10pt</dimen>
+    <dimen name="size_width_button">50pt</dimen>
+    <dimen name="size_height_button">20pt</dimen>
+    <dimen name="size_text_button">10pt</dimen>
+    <dimen name="size_top_button">15pt</dimen>
+    <dimen name="m_top">10pt</dimen>
+    <dimen name="left2">20pt</dimen>
+    <dimen name="top2">5pt</dimen>
+    <dimen name="left1">10pt</dimen>
+    <dimen name="mTop_image">10pt</dimen>
+    <dimen name="size_title_3">12pt</dimen>
+    <dimen name="size_image">90dp</dimen>
+    <dimen name="size_dimen_3">3pt</dimen>
+    <dimen name="margin_image">5pt</dimen>
+    <dimen name="size_text_small">8pt</dimen>
+    <dimen name="image_size_view">200dp</dimen>
+    <dimen name="size_margin_2">5pt</dimen>
+    <dimen name="size_text_6">6pt</dimen>
+    <dimen name="size_dimen_4">4pt</dimen>
+    <dimen name="margin_size">8dp</dimen>
+    <dimen name="text_size">20dp</dimen>
+    <dimen name="vertical_margin">16dp</dimen>
+    <dimen name="height_size">150sp</dimen>
+    <dimen name="margin_top_one">18dp</dimen>
+    <dimen name="margin_bottom">45dp</dimen>
+    <dimen name="margin_left">29dp</dimen>
+    <dimen name="margin_start">29dp</dimen>
+    <dimen name="margin_top">18dp</dimen>
+    <dimen name="margin_topbutton">10dp</dimen>
+    <dimen name="margin_description">100sp</dimen>
+
+    <!--Dimens of login-->
+    <dimen name="logo_w_h">80dp</dimen>
+    <dimen name="size_logo">30dp</dimen>
+
+</resources>

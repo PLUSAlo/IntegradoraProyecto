@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ImageView
+        android:id="@+id/imv_rooms"
+        android:layout_width="@dimen/height_size"
+        android:layout_height="@dimen/height_size"
+        android:src="@mipmap/ic_launcher"
+        android:layout_gravity="center"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="browseImages"
+        android:text="@string/choose_image"
+        android:background="@color/colorPrimary"
+        android:layout_gravity="center"/>
+    <EditText
+        android:id="@+id/edt_name_rooms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre Habitación"
+        android:inputType="textPersonName"/>
+    <EditText
+        android:id="@+id/edt_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Costo Habitación"
+        android:inputType="numberDecimal"/>
+    <EditText
+        android:id="@+id/edt_description"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_description"
+        android:hint="Descripción Habitación"
+        android:inputType="text"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="uploadData"
+        android:text="@string/add"
+        android:id="@+id/btn_upload"
+        android:layout_gravity="center"
+        android:background="@color/colorPrimary"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="viewAllData"
+        android:text="Lista"
+        android:layout_gravity="center"
+        android:background="@color/colorPrimary"
+        android:layout_marginTop="@dimen/margin_top"/>
+</LinearLayout>

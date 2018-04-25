@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20pt"
+        android:hint="Nombre"
+        android:inputType="textPersonName"
+        android:id="@+id/cliente"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20pt"
+        android:hint="Nombre"
+        android:inputType="textPersonName"
+        android:id="@+id/name"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20pt"
+        android:hint="Fecha"
+        android:inputType="textPersonName"
+        android:id="@+id/date"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20pt"
+        android:hint="Tiempo"
+        android:inputType="textPersonName"
+        android:id="@+id/time"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20pt"
+        android:hint="Price"
+        android:inputType="textPersonName"
+        android:id="@+id/price"
+        />
+</LinearLayout>

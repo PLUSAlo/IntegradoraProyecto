@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#F7DCCB"
+    tools:context=".MenuReservationsAdm">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reservaciones Hotel-Spa Posada Bonita"
+        android:gravity="center"
+        android:textSize="15pt"
+        android:fontFamily="monospace"
+        android:layout_margin="5dp"
+        android:id="@+id/title_menu_reservations"
+        />
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Habitaciones"
+    android:gravity="center"
+    android:id="@+id/title_rooms_reservations"
+    android:textSize="10pt"
+    android:layout_margin="10pt"
+    android:fontFamily="serif-monospace"
+        android:layout_below="@id/title_menu_reservations"/>
+    <Button
+        android:layout_width="50pt"
+        android:layout_height="20pt"
+        android:text="Reservar"
+        android:layout_below="@id/title_rooms_reservations"
+        android:layout_centerHorizontal="true"
+        android:background="#FAAC58"
+        android:textColor="#FFFFFF"
+        android:id="@+id/button_rooms_reservation"
+        android:onClick="intentRoomAdm"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Servicios"
+        android:gravity="center"
+        android:id="@+id/title_services_reservations"
+        android:layout_below="@+id/button_rooms_reservation"
+        android:textSize="10pt"
+        android:layout_margin="10pt"
+        android:fontFamily="serif-monospace"/>
+    <Button
+        android:layout_width="50pt"
+        android:layout_height="20pt"
+        android:text="Reservar"
+        android:layout_below="@id/title_services_reservations"
+        android:layout_centerHorizontal="true"
+        android:background="#FAAC58"
+        android:textColor="#FFFFFF"
+        android:id="@+id/button_services_reservation"
+        android:onClick="intentServiceAdm"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Paquetes"
+        android:gravity="center"
+        android:id="@+id/title_packages_reservations"
+        android:layout_below="@+id/button_services_reservation"
+        android:textSize="10pt"
+        android:layout_margin="10pt"
+        android:fontFamily="serif-monospace"/>
+    <Button
+        android:layout_width="50pt"
+        android:layout_height="20pt"
+        android:text="Reservar"
+        android:layout_below="@+id/title_packages_reservations"
+        android:layout_centerHorizontal="true"
+        android:background="#FAAC58"
+        android:textColor="#FFFFFF"
+        android:id="@+id/button_packages_reservation"
+        android:onClick="intentPackageAdm"/>
+
+</RelativeLayout>

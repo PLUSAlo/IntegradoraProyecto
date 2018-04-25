@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.alo_m.mapgeo.ListCommentActivity">
+
+<TextView
+        android:id="@+id/title_comments"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_comments"
+        android:textSize="15pt"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/size_margin"/>
+    <Button
+        android:layout_width="@dimen/size_width_button"
+        android:layout_height="@dimen/size_height_button"
+        android:background="#FAAC58"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:textSize="8pt"
+        android:text="Ver Lista"
+        android:layout_gravity="center"
+        android:id="@+id/btn_list"
+        android:layout_margin="5pt"
+        />
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/lsv_comments"
+        android:layout_margin="@dimen/size_margin">
+    </ListView>
+</LinearLayout>

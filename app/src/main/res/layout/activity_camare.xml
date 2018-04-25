@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OpenCamare">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Compartir Imágenes"
+        android:gravity="center"
+        android:textSize="15pt"
+        android:fontFamily="monospace"
+        android:layout_margin="5dp"
+        android:id="@+id/title_call"
+        />
+    <Button
+        android:layout_width="@dimen/size_width_button"
+        android:layout_height="@dimen/size_height_button"
+        android:background="#FAAC58"
+        android:textSize="7pt"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:text="@string/share"
+        android:id="@+id/buttonShare"
+        android:layout_marginTop="180pt"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_below="@id/title_call"
+        android:layout_width="80pt"
+        android:layout_height="15pt"
+        android:background="#FAAC58"
+        android:textSize="7pt"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:text="@string/choose_img"
+        android:id="@+id/foto"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="140pt"
+        android:id="@+id/imgfoto"
+        android:scaleType="centerCrop"
+        android:layout_below="@+id/foto"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

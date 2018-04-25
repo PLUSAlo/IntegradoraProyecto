@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".CotizacionActivity">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reservación Habitación"
+        android:textSize="15pt"
+        android:gravity="center"
+        android:id="@+id/title_reservation"
+        android:layout_margin="5pt"
+        />
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="15pt"
+        android:layout_below="@id/title_reservation"
+        android:id="@+id/spn_reservation"
+        android:layout_margin="5pt">
+    </Spinner>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="20pt"
+        android:hint="Nombre del Cliente"
+        android:inputType="textPersonName"
+        android:id="@+id/cliente"
+        android:layout_below="@+id/spn_reservation"
+        />
+
+    <Button
+        android:id="@+id/button_date"
+        android:layout_width="35pt"
+        android:layout_height="20pt"
+        android:text="Fecha"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        android:background="@android:color/holo_orange_dark"
+        android:layout_below="@+id/cliente"
+        android:gravity="center"
+        android:layout_marginTop="5pt"
+        />
+    <TextView
+        android:layout_width="75pt"
+        android:layout_height="30pt"
+        android:hint="DD/MM/YYYY"
+        android:layout_marginLeft="35pt"
+        android:layout_below="@id/cliente"
+        android:id="@+id/calendario"
+        android:gravity="center"
+        android:inputType="number"/>
+    <Button
+        android:id="@+id/button_time"
+        android:layout_width="35pt"
+        android:layout_height="20pt"
+        android:text="Hora"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        android:background="@android:color/holo_orange_dark"
+        android:layout_below="@+id/button_date"
+        android:gravity="center"
+        android:layout_marginTop="10pt"
+        />
+
+
+    <TextView
+        android:layout_width="75pt"
+        android:layout_height="30pt"
+        android:hint="HH:MM"
+        android:layout_below="@id/calendario"
+        android:id="@+id/hora"
+        android:gravity="center"
+        android:inputType="number"
+        android:layout_marginLeft="35pt"/>
+    <TextView
+        android:layout_width="30pt"
+        android:layout_height="30pt"
+        android:layout_below="@+id/hora"
+        android:text="Total:"
+        android:textSize="10pt"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="90pt"
+        android:layout_height="30pt"
+        android:hint="$00.00"
+        android:layout_below="@id/hora"
+        android:layout_marginLeft="30pt"
+        android:id="@+id/monto"
+        android:gravity="center"
+        android:inputType="number"/>
+    <!--   Hidden Text which will shown when taking screenshot from below Button  -->
+    <TextView
+        android:id="@+id/hidden_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Reservación Hecha"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        android:visibility="invisible"
+        android:layout_margin="5pt"
+        android:layout_below="@+id/monto"/>
+
+    <!--  Button which will take screenshot after hiding some view and showing some view  -->
+    <Button
+        android:id="@+id/custom_page_screenshot"
+        android:layout_width="80pt"
+        android:layout_height="20pt"
+        android:text="Reservar"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        android:background="@android:color/holo_orange_dark"
+        android:layout_below="@+id/hidden_text"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        />
+
+
+    <!--  ImageView to show taken Screenshot  -->
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="200pt"
+        android:layout_height="200pt"
+        android:scaleType="fitCenter"
+        android:src="@mipmap/ic_launcher"
+        android:layout_below="@+id/custom_page_screenshot"
+        android:layout_marginTop="100pt"/>
+
+
+</RelativeLayout>
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.alo_m.mapgeo.CommentActivity">
+    <TextView
+        android:id="@+id/title_comments"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_comments"
+        android:textSize="@dimen/size_title_1"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/size_margin"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/name_comment"
+        android:layout_marginTop="10pt"
+        android:gravity="left"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/edt_name"
+        android:layout_margin="@dimen/size_margin"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/txt_comment"
+        android:layout_marginTop="10pt"
+        android:gravity="left"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/edt_comment"
+        android:layout_margin="@dimen/size_margin"
+
+        />
+
+    <Button
+        android:layout_width="@dimen/size_width_button"
+        android:layout_height="@dimen/size_height_button"
+        android:background="#FAAC58"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:textSize="@dimen/size_text_button"
+        android:text="Guardar"
+        android:layout_gravity="center"
+        android:id="@+id/btn_save"
+       />
+
+</LinearLayout>
